@@ -30,6 +30,18 @@
         display: none;
     }
 
+    .arrow-up .fa-linkedin {
+        display: none;
+    }
+
+    .arrow-up .fa-behance {
+        display: none;
+    }
+
+    .arrow-up .fa-envelope {
+        display: none;
+    }
+
     .arrow-up .fa-whatsapp {
         display: none;
     }
@@ -54,7 +66,9 @@
         display: none;
     }
 
-
+    #sub {
+        display: none;
+    }
 
     .fixed-menu {
         position: fixed;
@@ -62,7 +76,7 @@
         bottom: 0;
         left: 0;
         width: 100%;
-        background-color: #E5E5E5;
+        background-color: white;
         padding: 18px 0px;
         display: flex;
         justify-content: space-evenly;
@@ -110,10 +124,14 @@
 
     .fixed-menu {
         display: none;
+
     }
 
     .arrow-up {
-        background-color: #E5E5E5;
+        border-radius: 3px 0px 0px 0px;
+        border-top: 1px solid #181035;
+        border-left: 1px solid #181035;
+        background-color: white;
         z-index: 99999;
         position: fixed;
         bottom: 0px;
